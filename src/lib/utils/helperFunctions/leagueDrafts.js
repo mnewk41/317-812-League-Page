@@ -222,7 +222,8 @@ export const getPreviousDrafts = async () => {
 			getLeagueData(curSeason)
 		).catch((err) => { console.error(err); });
 	
-		const draftID = leagueData.draft_id;
+		let draftID = leagueData.draft_id;
+		if(draftID == "734106523185344512") draftID = "713077938551062528";
 		let year = parseInt(leagueData.season);
 		curSeason = leagueData.previous_league_id;
 	
