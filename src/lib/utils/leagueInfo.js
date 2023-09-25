@@ -8,7 +8,7 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 /*   STEP 2   */
 export const homepageText = `
   <p>Welcome to the 317/812 Dynasty</p>
-  <p>Established in 2020 a goal of ours has been being in and growing a dynasty league that will last for years. We have had a total of 12 members of the 3 short years but hope to stick to keeping the same 10 year after year. We are all a bunch of friends from Souther Indiana who love to participate and watch football!
+  <p>Established in 2020 a goal of ours has been being in and growing a dynasty league that will last for years. We have had a total of 12 members of the 3 short years but hope to stick to keeping the same 10 year after year. We are all a bunch of friends from Souther Indiana who love to participate and watch football!</p>
   ;
 
 /*   STEP 3   */
