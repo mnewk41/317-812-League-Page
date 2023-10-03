@@ -93,7 +93,7 @@ export const managers = [
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Des Moines, IA", // (optional)
       "bio": "Drink, watch sports, play video games, drink, travel, man shit, talk shit",
-      "photo": "/managers/Jake.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/Jake.jpeg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2009, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "den", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -137,7 +137,7 @@ export const managers = [
       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Indiana", // (optional)
       "bio": "I love watching football and sometimes putting a little money on a game or two",
-      "photo": "/managers/JT.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/JT.jpeg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2018, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "ind", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -159,7 +159,7 @@ export const managers = [
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Columbus, IN", // (optional)
       "bio": "I like to play games, workout, play basketball, and cook",
-      "photo": "/managers/Andrew.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/Andrew.jpeg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2017, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "gb", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
