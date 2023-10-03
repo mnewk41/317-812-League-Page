@@ -226,7 +226,7 @@
     
     <h3 bind:this={oneThree}>1.3 Waiver Wire</h3>
     
-    <p>Rolling Waiver Wire system. Rolling Waivers are continuous and the last person to waiver a player is placed last into the waiver priority.</p>
+    <p>FAAB Waiver Wire system. //Rolling Waivers are continuous and the last person to waiver a player is placed last into the waiver priority//.</p>
 
     <p>Waiver priority resets at the beginning of each offseason in reverse standings order</p>
     
