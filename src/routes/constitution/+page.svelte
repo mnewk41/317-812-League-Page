@@ -164,7 +164,7 @@
         <li>K</li>
     </ul>
     
-    <p>11 Bench (Expanded by 2 between the keague draft and start of regular season)</p>
+    <p>11 Bench (Expanded by 2 between the league draft and start of regular season)</p>
     
     <p>5 Taxi Squad Spots (Expanded by 2 between the league draft and start of regular season)<p> 
 
@@ -284,14 +284,14 @@
     <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
     
     <h3 bind:this={sevenOne}>7.1 League Dues</h3>
-    <p>League dues are set at {dues}$.Dues are collected by a selected commissioner and collection will be sent out no later than the first of August. All managers must be fully paid before the start of Pre-season. If a manager fails to pay before the deadline, a 10% penalty will be added to their payment and will go towards the payouts at the end of the year. If the manager fails to pay before the championship game the result will be an instant removal from the league.</p>
+    <p>League dues are set at {15}$.Dues are collected by a selected commissioner and collection will be sent out no later than the first of August. All managers must be fully paid before the start of Pre-season. If a manager fails to pay before the deadline, a 10% penalty will be added to their payment and will go towards the payouts at the end of the year. If the manager fails to pay before the championship game the result will be an instant removal from the league.A {2}$ fee is also collected for a championship ring for the winner of the league.</p>
     
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
     <p>League payout is structured as follows:</p>
     <ul>
-        <li>1st place: {dues * 90}$</li>
-        <li>2nd place: {dues + 15}$</li>
-        <li>3rd place: {dues}$</li>
+        <li>1st place: {15 + 90}$</li>
+        <li>2nd place: {15 + 15}$</li>
+        <li>3rd place: {15}$</li>
     </ul>
     <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout. Similarly, if new managers come into the league and the payout is smaller, the difference will come out of the winner's prize.</p>
     
