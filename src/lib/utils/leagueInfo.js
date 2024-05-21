@@ -37,7 +37,7 @@ export const managers = [
         link: 6, // manager array number within this array, or null to link back to all managers page
         image: "/managers/Red Solo Kupp.JPEG", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-      "favoritePlayer": 9229, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "favoritePlayer": 6813, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Games are won and lost in the trenches",
@@ -82,7 +82,7 @@ export const managers = [
         image: "/managers/", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 5846, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "valuePosition": "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Work hard everyday to become a better person and player for a great organization",
       "tradingScale": 8, // 1 - 10
@@ -247,8 +247,8 @@ export const managers = [
       "name": "Josh Avery",
       "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Westport, IN", // (optional)
-      "bio": "I like fishing, hunting, camping, and playing sports in recreational leagues",
-      "photo": "/managers/Levi.jpeg", // square ratio recommended (no larger than 500x500)
+      //"bio": "",
+      //"photo": "/managers/Levi.jpeg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2012, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "ind", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
