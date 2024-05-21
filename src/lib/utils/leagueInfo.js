@@ -1,5 +1,5 @@
 /*   STEP 1   */
-export const leagueID = "916418156338483200"; // your league ID
+export const leagueID = "1050115411863269376"; // your league ID
 export const leagueName = "317/812 Dynasty"; // your league name
 export const dues = 17; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
@@ -89,13 +89,13 @@ export const managers = [
     },
     {
       "managerID": "603286692018864128",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Jake Steenhoek",
-      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Des Moines, IA", // (optional)
-      "bio": "Drink, watch sports, play video games, drink, travel, man shit, talk shit",
-      "photo": "/managers/Jake.jpeg", // square ratio recommended (no larger than 500x500)
-      "fantasyStart": 2009, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "den", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "name": "Josh Avery",
+      "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "location": "Westport, IN", // (optional)
+      "bio": ,
+      "photo": , // square ratio recommended (no larger than 500x500)
+      "fantasyStart": , // (optional) when did the manager start playing fantasy football
+      "favoriteTeam": "", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Rival", // Can be anything (usually your rival's name)
