@@ -1,25 +1,21 @@
 /*   STEP 1   */
-export const leagueID = "1050115411863269376"; // your league ID
+export const leagueID = "916418156338483200"; // your league ID
 export const leagueName = "317/812 Dynasty"; // your league name
 export const dues = 17; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
-
 /*   STEP 2   */
 export const homepageText = `
   <p>Welcome to the 317/812 Dynasty</p>
   <p>Est. in 2020 it has been our goal to keep an ongoing dynasty football league. The League consists of a group of guys from Columbus, Indiana and its surrounding areas.   </p>
 `;
-
 /*   STEP 3   */
 /*
 3 managers as an example. Uncomment (remove the //) before each line to make it live code
 If you're having trouble, reference the Training Wheels' Manager Section
 https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding-managers-and-changing-the-homepage-text
 */
-
 // To omit an optional field, set it's value to null
-
 export const managers = [
     {
       "managerID": "711330305272786944",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -31,6 +27,11 @@ export const managers = [
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "ind", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      // "rival": {
+        // name: "Red Solo Kupp", // Can be anything (usually your rival's name)
+        // link: 6, // manager array number within this array, or null to link back to all managers page
+        // image: "/managers/Red Solo Kupp.JPEG", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+      // },
       "rival": {
         name: "Red Solo Kupp", // Can be anything (usually your rival's name)
         link: 6, // manager array number within this array, or null to link back to all managers page
@@ -89,13 +90,13 @@ export const managers = [
     },
     {
       "managerID": "603286692018864128",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Josh Avery",
-      "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Westport, IN", // (optional)
-      "bio": "win" ,
-      "photo": null , // square ratio recommended (no larger than 500x500)
-      "fantasyStart":null  , // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "ind", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "name": "Jake Steenhoek",
+      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "location": "Des Moines, IA", // (optional)
+      "bio": "Drink, watch sports, play video games, drink, travel, man shit, talk shit",
+      "photo": "/managers/Jake.jpeg", // square ratio recommended (no larger than 500x500)
+      "fantasyStart": 2009, // (optional) when did the manager start playing fantasy football
+      "favoriteTeam": "den", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Rival", // Can be anything (usually your rival's name)
