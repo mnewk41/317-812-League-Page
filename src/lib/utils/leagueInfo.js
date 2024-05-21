@@ -92,7 +92,7 @@ export const managers = [
       "name": "Josh Avery",
       "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Westport, IN", // (optional)
-      "bio": win ,
+      "bio": "win" ,
       "photo": null , // square ratio recommended (no larger than 500x500)
       "fantasyStart":null  , // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "ind", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
