@@ -214,7 +214,7 @@
     
     <h4 bind:this={oneTwoFour}>1.2.4 Trade Restrictions</h4>
     <div class="subBlock">
-        <p>You will not be able to trade draft picks that are more than 3 drafts away. For example, during the 2021 season you cannot trade any picks in or after the 2025 draft. You may only trade FAAB $ from the current season.</p>
+        <p>You will not be able to trade draft picks that are more than 3 drafts away. For example, during the 2024 season you cannot trade any picks in or after the 2028 draft. You may only trade FAAB $ from the current season.</p>
     </div>
     
     <h4 bind:this={oneTwoFive}>1.2.5 Veto/Trade Process</h4>
@@ -226,7 +226,9 @@
     
     <h3 bind:this={oneThree}>1.3 Waiver Wire</h3>
     
-    <p>FAAB Waiver Wire system for 2023.2024 Rolling Waivers will resume and are continuous and the last person to waiver a player is placed last into the waiver priority//.</p>
+    <p>FAAB Waiver Wire system for 2024.</p>
+
+    <p>FAAB given at beginning of season is $60.</p>
 
     <p>Waiver priority resets at the beginning of each offseason in reverse standings order</p>
     
@@ -236,8 +238,12 @@
     <h3 bind:this={twoOne}>2.1 Draft Order</h3>
     <p>The draft order each year will be a Snake draft in reverse order of the previous year’s regular season standings.</p>
 
+    <p>Picks 1 through 4 will be determnined on regular season finish. The worst record getting the 1.01 etc...</p>
+
+    <p>Picks 5 through 10 will be based on playoff finish. The champion will be 1.10 etc...</p>
+
     <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
-    <p>Rookie drafts will consist of 5 rounds of drafting, with 1 minute 30 seconds allotted for each pick. To make room for the incoming players, benches will be expanded by (2) spots as well as taxi squad expander (2) Spots. These spots will be removed before the 1st week of Preseason, at which point you will need to have cut the necessary players.</p>
+    <p>Rookie drafts will consist of 5 rounds of drafting, with 1 minute 30 seconds allotted for each pick. To make room for the incoming players, benches will be expanded by (2) spots as well as taxi squad expander (2) Spots. These spots will be removed before the 1st week of the season, at which point you will need to have cut the necessary players.</p>
     <p>Any spots not filled during the draft, can be filled immediately afterwards from the waiver wire.</p>
     
     <h3 bind:this={twoThree}>2.3 Draft Day Trades</h3>
