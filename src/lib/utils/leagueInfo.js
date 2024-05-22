@@ -141,7 +141,7 @@ export const managers = [
       "photo": "/managers/JT.jpeg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2018, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "ind", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         //name: "Get Cook'd", // Can be anything (usually your rival's name)
         //link: 4, // manager array number within this array, or null to link back to all managers page
@@ -185,7 +185,7 @@ export const managers = [
       "photo": "/managers/AJ.jpeg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "ind", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         //name: "Baby Yota's", // Can be anything (usually your rival's name)
         //link: 2, // manager array number within this array, or null to link back to all managers page
@@ -247,7 +247,7 @@ export const managers = [
       "name": "Josh Avery",
       "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Southside Indy, IN", // (optional)
-      "bio": "I enjoy attending sporting events, traveling, and spending time with his enormous family. Josh only began playing FF during the 23 season, but fell in love with it instantly. He is a shrewd negotiator who’s always looking to discuss a trade (especially when he’s buzzed).",
+      "bio": "I enjoy attending sporting events, traveling, and spending time with my enormous family. I only began playing FF during the 23 season, but fell in love with it instantly. I am a shrewd negotiator who’s always looking to discuss a trade (especially when he’s buzzed).",
       "photo": "/managers/Josh Avery.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "cin", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -257,7 +257,7 @@ export const managers = [
         //link: 6, // manager array number within this array, or null to link back to all managers page
         //image: "/managers/Red Solo Kupp.JPEG", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-      "favoritePlayer": 6813, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "favoritePlayer": 7564, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "TE", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Pass to set up the run!!",
