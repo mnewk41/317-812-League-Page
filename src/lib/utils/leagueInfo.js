@@ -248,7 +248,7 @@ export const managers = [
       "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Southside Indy, IN", // (optional)
       "bio": "I enjoy attending sporting events, traveling, and spending time with his enormous family. Josh only began playing FF during the 23 season, but fell in love with it instantly. He is a shrewd negotiator who’s always looking to discuss a trade (especially when he’s buzzed).",
-      //"photo": "/managers/Levi.jpeg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/Josh Avery.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "cin", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
